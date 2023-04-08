@@ -1,0 +1,59 @@
+body{
+    background: rgb(152,207,206);
+    background: linear-gradient(90deg, rgba(152,207,206,1) 4%, rgba(29,153,196,1) 50%, rgba(92,131,187,1) 100%);
+}
+
+.judul{
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.container{
+    width: 400px;
+    height: 370px;
+    background: #e4e3e7;
+    margin: 0 auto;
+    margin-top: 155px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h3{
+    line-height: 2px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #00ADB5;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    border-radius: 5px;
+    background: #4682B4;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.register{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.register a{
+    text-decoration: none;
+    color: #212172;
+}
